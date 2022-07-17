@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header a {
+    margin-right: 30px;
+    display: inline-block;
+    padding: 8px 12px;
+
+    color: #333333;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header a:first-child {
+    margin-left: 20px;
+}

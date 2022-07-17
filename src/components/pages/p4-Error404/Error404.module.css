@@ -1,0 +1,28 @@
+
+
+.header_error {
+    color: #909090;
+}
+
+.header_error_wrapper h1, h2 {
+    margin: 10px;
+    font-size: 46px;
+}
+
+.header_error_wrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.error_img {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .header_error_wrapper > h1,
+    .header_error_wrapper > h2 {
+        font-size: 28px;
+    }
+}

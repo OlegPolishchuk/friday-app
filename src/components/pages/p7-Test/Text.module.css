@@ -1,0 +1,16 @@
+.container {
+    padding: 0 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container > div {
+    margin-bottom: 50px;
+}
+
+.container div:first-child {
+    margin-top: 30px;
+}
+

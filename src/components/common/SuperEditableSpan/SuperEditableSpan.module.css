@@ -1,0 +1,17 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.default {
+    display: inline-block;
+    box-sizing: border-box;
+
+    /*height: 51px;*/
+    padding: 7px 0 7px 30px;
+
+    background: url("../../../assets/img/pen_img.png") left center no-repeat;
+    margin-bottom: 16px;
+}
